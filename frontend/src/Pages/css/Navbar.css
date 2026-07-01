@@ -1,0 +1,75 @@
+/* Navbar.css (Now functioning as a Sidebar) */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #34495e;
+  margin-bottom: 20px;
+}
+
+.sidebar-logo h2 {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
+
+/* New Profile Section Styling */
+.sidebar-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+  border-bottom: 1px solid #34495e;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.user-email {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-role {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  color: #bdc3c7;
+}
+
+.sidebar-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.sidebar-links li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: block; /* Makes the whole block clickable */
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-links li a:hover {
+  background-color: #34495e; 
+}
